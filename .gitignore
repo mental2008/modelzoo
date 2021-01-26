@@ -1,4 +1,5 @@
-tensorflow_model/
+tensorflow_model/cv/
+tensorflow_model/nlp/
 .idea/
 .DS_Store
 test.py

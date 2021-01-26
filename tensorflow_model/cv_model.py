@@ -36,7 +36,7 @@ models = {
 if __name__ == '__main__':
     for model in models:
         pretrained_model = eval('keras.applications.{}()'.format(model))
-        save_path = os.path.join(os.getcwd(), 'tensorflow_model', model.lower(), '1')
+        save_path = os.path.join(os.getcwd(), 'tensorflow_model', 'cv', model.lower(), '1')
         if os.path.exists(save_path):
             continue
         print(save_path)
