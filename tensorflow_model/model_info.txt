@@ -1,0 +1,275 @@
+# CV
+
+CV models: https://www.tensorflow.org/api_docs/python/tf/keras/applications
+
+## DenseNet
+
+@inproceedings{huang2017densely,
+  title={Densely connected convolutional networks},
+  author={Huang, Gao and Liu, Zhuang and Van Der Maaten, Laurens and Weinberger, Kilian Q},
+  booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition},
+  pages={4700--4708},
+  year={2017}
+}
+
+## EfficientNet
+
+@inproceedings{tan2019efficientnet,
+  title={Efficientnet: Rethinking model scaling for convolutional neural networks},
+  author={Tan, Mingxing and Le, Quoc},
+  booktitle={International Conference on Machine Learning},
+  pages={6105--6114},
+  year={2019},
+  organization={PMLR}
+}
+
+## ResNet
+
+@inproceedings{he2016deep,
+  title={Deep residual learning for image recognition},
+  author={He, Kaiming and Zhang, Xiangyu and Ren, Shaoqing and Sun, Jian},
+  booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition},
+  pages={770--778},
+  year={2016}
+}
+
+@inproceedings{he2016identity,
+  title={Identity mappings in deep residual networks},
+  author={He, Kaiming and Zhang, Xiangyu and Ren, Shaoqing and Sun, Jian},
+  booktitle={European conference on computer vision},
+  pages={630--645},
+  year={2016},
+  organization={Springer}
+}
+
+## NASNet
+
+@inproceedings{zoph2018learning,
+  title={Learning transferable architectures for scalable image recognition},
+  author={Zoph, Barret and Vasudevan, Vijay and Shlens, Jonathon and Le, Quoc V},
+  booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition},
+  pages={8697--8710},
+  year={2018}
+}
+
+## MobileNet
+
+@article{howard2017mobilenets,
+  title={Mobilenets: Efficient convolutional neural networks for mobile vision applications},
+  author={Howard, Andrew G and Zhu, Menglong and Chen, Bo and Kalenichenko, Dmitry and Wang, Weijun and Weyand, Tobias and Andreetto, Marco and Adam, Hartwig},
+  journal={arXiv preprint arXiv:1704.04861},
+  year={2017}
+}
+
+@inproceedings{sandler2018mobilenetv2,
+  title={Mobilenetv2: Inverted residuals and linear bottlenecks},
+  author={Sandler, Mark and Howard, Andrew and Zhu, Menglong and Zhmoginov, Andrey and Chen, Liang-Chieh},
+  booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition},
+  pages={4510--4520},
+  year={2018}
+}
+
+## Inception
+
+@inproceedings{szegedy2016rethinking,
+  title={Rethinking the inception architecture for computer vision},
+  author={Szegedy, Christian and Vanhoucke, Vincent and Ioffe, Sergey and Shlens, Jon and Wojna, Zbigniew},
+  booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition},
+  pages={2818--2826},
+  year={2016}
+}
+
+@inproceedings{szegedy2017inception,
+  title={Inception-v4, inception-resnet and the impact of residual connections on learning},
+  author={Szegedy, Christian and Ioffe, Sergey and Vanhoucke, Vincent and Alemi, Alexander},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={31},
+  number={1},
+  year={2017}
+}
+
+## VGG
+
+@article{simonyan2014very,
+  title={Very deep convolutional networks for large-scale image recognition},
+  author={Simonyan, Karen and Zisserman, Andrew},
+  journal={arXiv preprint arXiv:1409.1556},
+  year={2014}
+}
+
+## Xception
+
+@inproceedings{chollet2017xception,
+  title={Xception: Deep learning with depthwise separable convolutions},
+  author={Chollet, Fran{\c{c}}ois},
+  booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition},
+  pages={1251--1258},
+  year={2017}
+}
+
+
+
+# NLP
+
+NLP models: https://tfhub.dev/
+
+## ALBERT
+
+@article{lan2019albert,
+  title={Albert: A lite bert for self-supervised learning of language representations},
+  author={Lan, Zhenzhong and Chen, Mingda and Goodman, Sebastian and Gimpel, Kevin and Sharma, Piyush and Soricut, Radu},
+  journal={arXiv preprint arXiv:1909.11942},
+  year={2019}
+}
+
+## Small BERT
+
+@article{turc2019well,
+  title={Well-read students learn better: On the importance of pre-training compact models},
+  author={Turc, Iulia and Chang, Ming-Wei and Lee, Kenton and Toutanova, Kristina},
+  journal={arXiv preprint arXiv:1908.08962},
+  year={2019}
+}
+
+## BERT
+
+@article{devlin2018bert,
+  title={Bert: Pre-training of deep bidirectional transformers for language understanding},
+  author={Devlin, Jacob and Chang, Ming-Wei and Lee, Kenton and Toutanova, Kristina},
+  journal={arXiv preprint arXiv:1810.04805},
+  year={2018}
+}
+
+## ELECTRA
+
+@article{clark2020electra,
+  title={Electra: Pre-training text encoders as discriminators rather than generators},
+  author={Clark, Kevin and Luong, Minh-Thang and Le, Quoc V and Manning, Christopher D},
+  journal={arXiv preprint arXiv:2003.10555},
+  year={2020}
+}
+
+## NNLM
+
+@article{bengio2003neural,
+  title={A neural probabilistic language model},
+  author={Bengio, Yoshua and Ducharme, R{\'e}jean and Vincent, Pascal and Janvin, Christian},
+  journal={The journal of machine learning research},
+  volume={3},
+  pages={1137--1155},
+  year={2003},
+  publisher={JMLR. org}
+}
+
+## Word2vec
+
+@article{mikolov2013efficient,
+  title={Efficient estimation of word representations in vector space},
+  author={Mikolov, Tomas and Chen, Kai and Corrado, Greg and Dean, Jeffrey},
+  journal={arXiv preprint arXiv:1301.3781},
+  year={2013}
+}
+
+## Universal Sentence Encoder
+
+@article{cer2018universal,
+  title={Universal sentence encoder},
+  author={Cer, Daniel and Yang, Yinfei and Kong, Sheng-yi and Hua, Nan and Limtiaco, Nicole and John, Rhomni St and Constant, Noah and Guajardo-C{\'e}spedes, Mario and Yuan, Steve and Tar, Chris and others},
+  journal={arXiv preprint arXiv:1803.11175},
+  year={2018}
+}
+
+@article{chidambaram2018learning,
+  title={Learning cross-lingual sentence representations via a multi-task dual-encoder model},
+  author={Chidambaram, Muthuraman and Yang, Yinfei and Cer, Daniel and Yuan, Steve and Sung, Yun-Hsuan and Strope, Brian and Kurzweil, Ray},
+  journal={arXiv preprint arXiv:1810.12836},
+  year={2018}
+}
+
+@article{chidambaram2018learning,
+  title={Learning cross-lingual sentence representations via a multi-task dual-encoder model},
+  author={Chidambaram, Muthuraman and Yang, Yinfei and Cer, Daniel and Yuan, Steve and Sung, Yun-Hsuan and Strope, Brian and Kurzweil, Ray},
+  journal={arXiv preprint arXiv:1810.12836},
+  year={2018}
+}
+
+## ELMo
+
+@article{peters2018deep,
+  title={Deep contextualized word representations},
+  author={Peters, Matthew E and Neumann, Mark and Iyyer, Mohit and Gardner, Matt and Clark, Christopher and Lee, Kenton and Zettlemoyer, Luke},
+  journal={arXiv preprint arXiv:1802.05365},
+  year={2018}
+}
+
+---
+
+Model Size
+
+# CV
+
+ 40M densenet121
+ 67M densenet169
+ 92M densenet201
+
+ 25M efficientnetb0
+ 37M efficientnetb1
+ 42M efficientnetb2
+ 55M efficientnetb3
+ 84M efficientnetb4
+129M efficientnetb5
+179M efficientnetb6
+278M efficientnetb7
+
+102M resnet50
+102M resnet50v2
+179M resnet101
+178M resnet101v2
+249M resnet152
+245M resnet152v2
+
+ 38M nasnetmobile
+365M nasnetlarge
+
+ 18M mobilenet
+ 17M mobilenetv2
+
+ 98M inceptionv3
+229M inceptionresnetv2
+
+533M vgg16
+559M vgg19
+
+ 91M xception
+
+# NLP
+
+ 59M	albert_en_base
+ 97M	albert_en_large
+254M	albert_en_xlarge
+874M	albert_en_xxlarge
+
+ 22M	bert_en_uncased_L-2_H-128_A-2
+ 50M	bert_en_uncased_L-4_H-256_A-4
+117M	bert_en_uncased_L-4_H-512_A-8
+170M	bert_en_uncased_L-8_H-512_A-8
+
+444M	bert_en_uncased_L-12_H-768_A-12
+1.3G	bert_en_uncased_L-24_H-1024_A-16
+
+ 62M	electra_small
+444M	electra_base
+1.3G	electra_large
+
+192M	nnlm-en-dim50
+490M	nnlm-en-dim128
+
+984M	Wiki-words-250
+1.9G	Wiki-words-500
+
+990M	universal-sentence-encoder
+590M	universal-sentence-encoder-large
+273M	universal-sentence-encoder-multilingual
+342M	universal-sentence-encoder-multilingual-large
+
+369M	elmo
